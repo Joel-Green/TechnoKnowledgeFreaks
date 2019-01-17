@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ *
+ {
+
+ }
+
+body {
+  padding-top: 54px;
+  font-family: 'segoe ui';
+  margin:0;
+    padding:0;
+   /* background-image: url(../images/Homepage/6817.jpg);*/
+}
+
+/*@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}*/
+.bg-dark
+{
+  background:transparent;
+  background-color: none;
+}
+.carousel-item {
+  /*height: 65vh;*/
+  min-height: 520px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container-fluid {
+    margin-left: 0px;
+    padding-left: 0px;
+  margin-right: 0px;
+padding-right: 0px;
+}
+.main-img img
+{
+  width: 100%;
+  height: 601px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.my-4
+{
+  text-align: center;
+  font-weight: 400;
+}
+.container:nth-child(2)
+{
+  font-weight: 300;
+}
+.jumbotron:nth-child(1)
+{
+  height: 658px;
+  background-image: url("../images/Homepage/6817.jpg");
+  background-size: cover;
+  margin:0;
+  padding: 0;
+  border-radius:0 !important;
+  background-attachment: fixed;
+}
+.card-header
+{
+  text-align: center;
+  font-weight: 300;
+  color:#FFF;
+}
+.card-body img
+{
+  height: 120px;
+  width: 120px;
+  position:relative;
+  left:29%;
+
+}
+.container-fluid h1 , .container-fluid h4  
+{
+  color:#fff;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  top:180px;
+}
+.jumbotron:nth-child(3)
+{
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #FFF;*/
+  background-position: center;
+  background-image: url('../images/Homepage/slider1.png');
+  margin:0;
+  padding:0;
+  background-attachment: fixed;
+}
+.jumbotron:nth-child(3) h2,.jumbotron:nth-child(3) h5
+{
+  color:#FFF;
+  text-align: center;
+  position: relative;
+  top:40%;
+  font-weight: 100;
+}
+.jumbotron:nth-child(4)
+{
+  background-color: #FFF;
+}
+.jumbotron:nth-child(4) h1
+{
+ color:#000;
+  text-align: center;
+  position: relative;
+  top:40%;
+  font-weight: 400; 
+}
+.jumbotron:nth-child(4) h3,.jumbotron:nth-child(4) h4,.jumbotron:nth-child(4) h5
+{
+  color:#636e72;
+  text-align: center;
+  position: relative;
+  top:40%;
+  font-weight: 100;
+}
+.jumbotron:nth-child(5)
+{
+  height: 450px;
+  width: 100%;
+  background-image:url(../images/Homepage/Brick-Bricks-Pattern-Wallpaper-1920x1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+}
+.jumbotron:nth-child(5) h2,.jumbotron:nth-child(5) h3
+{
+   color:#FFF;
+  text-align: center;
+  position: relative;
+  top:40%;
+  font-weight: 100;
+}
+.navbar
+{
+  background-color: #636e72;
+}
+@media screen and(max-width: 768px) {
+}
+.jumbotron:nth-child(1) button
+{
+  outline: none;
+
+}
+.navbar .btn:hover
+{
+  background-color: #636e72;
+  color: #FFF;
+  border:1px solid #FFF;
+}
+.jumbotron:nth-child(1) button:hover
+{
+  background-color: #636e72;
+  color: #FFF;
+}

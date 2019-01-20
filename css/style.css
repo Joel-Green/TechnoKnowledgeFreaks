@@ -13,6 +13,7 @@ body {
   font-family: 'segoe ui';
   margin:0;
     padding:0;
+    
    /* background-image: url(../images/Homepage/6817.jpg);*/
 }
 
@@ -58,11 +59,15 @@ padding-right: 0px;
 .container:nth-child(2)
 {
   font-weight: 300;
+
 }
 .jumbotron:nth-child(1)
 {
   height: 658px;
   background-image: url("../images/Homepage/6817.jpg");
+  /*background-image: url("../images/Homepage/2.jpg");*/
+  /*background-image: url("../images/Homepage/patrick.jpg");*/
+/*filter:brightness(98%);*/
   background-size: cover;
   margin:0;
   padding: 0;
@@ -85,7 +90,9 @@ padding-right: 0px;
 }
 .container-fluid h1 , .container-fluid h4  
 {
-  color:#fff;
+  /*color:#fff;*/
+  color:white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.73);
   text-align: center;
   line-height: 50px;
   position: relative;
@@ -160,6 +167,24 @@ padding-right: 0px;
 {
   outline: none;
 
+}
+.foot
+{
+  background-color: #636e72;
+}  
+ .blog
+{
+  background-color: #636e72;
+  color: #FFF;
+}
+.img-fluid
+{
+  height: 300px;
+  width: 100%;
+}
+.card-img-top
+{
+  height: 350px;
 }
 .navbar .btn:hover
 {
